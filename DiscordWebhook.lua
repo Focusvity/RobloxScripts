@@ -1,3 +1,7 @@
+-- Created by Focusvity
+-- Roblox: darkeagle11221
+-- Requires HttpService to be enabled
+
 local http = game:GetService("HttpService")
 local url = "Discord Webhook Link"
 local data = {
