@@ -8,7 +8,7 @@ local DoorBar1 = script.Parent:WaitForChild("DoorBar1")
 local DoorBar2 = script.Parent:WaitForChild("DoorBar2")
 
 local tweenDoorInfo = TweenInfo.new(
-	8,
+	6.5,
 	Enum.EasingStyle.Linear,
 	Enum.EasingDirection.Out,
 	0,
@@ -47,7 +47,7 @@ script.Parent.Detector.Touched:Connect(function(hit)
 	openDoor:Play()
 	wait(14)
 	closeDoor:Play()
-	wait(9)
+	wait(7.5)
 	lockBar1:Play()
 	lockBar2:Play()
 end)
